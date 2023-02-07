@@ -40,7 +40,7 @@ export default function BookListPage({ query, headingText }: IBookListWithPagina
     )
 
     return (
-        <Container maxW='container.xl' mt='6' minH='calc(100vh - 262px)' >
+        <Container maxW='container.xl' mt='6' minH='calc(100vh - 272px)' >
             <HStack spacing='4' mb='6' >
                 <Center bg='blue.100' color='blue.600' p='2' borderRadius='base' >
                     <IconBook size='28' />

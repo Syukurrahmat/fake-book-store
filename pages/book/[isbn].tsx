@@ -14,10 +14,10 @@ type MyGetServerSideProps = GetServerSideProps<{ data: DetailBook }, { isbn: str
 
 export const getServerSideProps: MyGetServerSideProps = async ({ params }) => {
     const isbn = String(params?.isbn)
-    const data: DetailBook | null = await getDetailBook(isbn).catch(() => null)
 
-    if (!data) return { notFound: true}
-    return { props: { data } }
+    return getDetailBook(isbn)
+        .then(data => ({ props: { data } }))
+        .catch(() => ({ notFound: true }))
 }
 
 export default function Book({ data }: { data: DetailBook }) {
