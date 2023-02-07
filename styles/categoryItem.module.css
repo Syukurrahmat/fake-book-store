@@ -1,0 +1,32 @@
+.item {
+    transition: all 200ms;
+    position: relative;
+}
+
+.item * {
+    transition: all 200ms;
+}
+
+.item:hover div {
+    box-shadow: var(--chakra-shadows-xl);
+    transform: translateY(-4px);
+}
+
+.item p::after {
+    content: '';
+    display: block;
+    transition: all 200ms;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    bottom: -5px;
+    width: 0;
+    height: 3px;
+    border-radius: 2px;
+    background: var(--chakra-colors-blue-400);
+}
+
+.item:hover p::after {
+    width: 100%;
+}

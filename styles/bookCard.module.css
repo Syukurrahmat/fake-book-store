@@ -1,0 +1,38 @@
+.bookCard {
+    transition: all 200ms;
+}
+
+.bookCard img {
+    transition: all 200ms;
+}
+
+
+@media (pointer:coarse){
+    .bookCard button {
+        visibility:visible !important;
+    }       
+    .bookCard {
+        box-shadow: var(--chakra-shadows-xs) !important;
+    }
+
+}
+
+
+.bookCard:hover {
+    box-shadow: var(--chakra-shadows-xl);
+    transform: translateY(-4px);
+}
+
+.bookCard button {
+    visibility: hidden;
+}
+
+.bookCard:hover button {
+    visibility:visible !important;
+
+}
+
+.bookCard:hover img {
+    transform: scale(1.22);
+    display: inherit;
+}
