@@ -1,38 +1,52 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+[![](https://user-images.githubusercontent.com/56708199/217607212-0cdc58bf-d921-47bc-9125-b56b25220c2e.png)](https://bukuti.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+# BUKUTI
+  
+![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+![forthebadge](https://forthebadge.com/images/badges/made-with-typescript.svg)
+[![visit-this-website](https://user-images.githubusercontent.com/56708199/217606515-3c64c100-8e05-4c01-8b1d-fdeae9374f9a.svg)](https://bukuti.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+> Fake Online IT Bookstore
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+**BUKUTI** merupakan website toko online ( _fake_ ) yang menjual berbagai macam buku mengenai dunia Teknilogi Informasi ( _IT_ ) yang didalam nya kamu dapat menelusuri dan menemukan buku yang kamu minati seputar dunia IT
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Website ini secara langsung mengambil data dari public API yaitu https://api.itbook.store/
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🚀 Feature 
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Fitur -fitur yang terdapat pada website ini adalah sebagai berikut 
 
-## Learn More
+- Memberikan buku buku keluaran terbaru di halaman beranda
+- Buku dikategorikan menjadi beberapa kategori
+- Fitur pencarian buku
+- Fitur melihat detail buku, disertai rekomendasi buku lain yang sejenis
+- Fitur menambahkan ke keranjang
+- Fitur menambahkan ke daftar favorit
+- Responsive
 
-To learn more about Next.js, take a look at the following resources:
+Kekurangan 
+- f
+- f
+- f
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 👩🏾‍💻 Technology used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+![Next js](https://img.shields.io/badge/Next.js-000000.svg?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Typescript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=for-the-badge&logo=TypeScript&logoColor=white)
+![Chakra UI](https://img.shields.io/badge/Chakra%20UI-319795.svg?style=for-the-badge&logo=Chakra-UI&logoColor=white)
+![Swiper JS](https://img.shields.io/badge/Swiper-6332F6.svg?style=for-the-badge&logo=Swiper&logoColor=white)
 
-## Deploy on Vercel
+- React js, untuk membangun antarmuka dari web ini saya menggunakan React Js, yang merupakan framework yang cocok digunakan dalam proses pengembangan aplikasi web dinamis.
+- Typescript, saya gunakan untuk mengatur dan menyeragamkan tipe data dari suatu variable pada file javascript, sehingga penulisan kode lebih konsisten dan meminimalisir kesalahan kode saat kode dijalankan.
+- Chakra UI, untuk membangun komponen antarmuka website lebih cepat dan tertata, saya menggunakan Chakra UI, yang merupakan toolkit komponen toolkit yang dibangun di atas React
+- Swiper JS, yang merupakan library javacript untuk membuat slider, saya gunakan dalam antarmuka untuk mempermudah menavigasikan kartu Pesan satu ke kartu pesan yang lainnya dengan hanya mengusap/_swipe_ -nya
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🖥️ Website Video Snapshot
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+https://user-images.githubusercontent.com/56708199/217604462-32edb999-144b-4fd2-a375-c47e8c1cfdc0.mp4
+
+[![visit-this-website](https://user-images.githubusercontent.com/56708199/217606515-3c64c100-8e05-4c01-8b1d-fdeae9374f9a.svg)](https://bukuti.vercel.app/)
+
+
