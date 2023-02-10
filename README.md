@@ -46,3 +46,5 @@ Berhubung dari sisi backend sangat bergantung dengan API dari [IT Bookstore API]
 Sehingga, developer sedang mengembangkan backend sendiri dengan express.js dan mongodb, dan mengambil data dari [IT Bookstore API](https://api.itbook.store/) secara Web scraping untuk mendapatkan data yang lebih lengkap. Demi membangun dan mengembangkan fitur yang belum disematkan pada website di atas
 
 ## 🖥️ Website Video Snapshot
+
+https://user-images.githubusercontent.com/56708199/217967254-3a0341fe-7ea7-403c-a495-03d0515a476c.mp4
