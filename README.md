@@ -43,8 +43,6 @@ Adapun beberapa teknologi atau framework yang saya gunakan dalam project ini ada
 
 Berhubung dari sisi backend sangat bergantung dengan API dari [IT Bookstore API](https://api.itbook.store/), beberapa fitur belum dapat ditambahkan, seperti fitur checkout, deskripsi buku yang tidak lengkap (terpotong), fitur authentication untuk managemen akun user, dan penyimpanan keranjang dan daftar favorit masih disimpan di localstorage.
 
-Sehingga, developer sedang mengembangkan backend sendiri dengan express.js dan mongodb, dan mengambil data dari [IT Bookstore API](https://api.itbook.store/) secara Web scraping untuk mendapatkan data yang lebih lengkap. Demi membangun dan mengembangkan fitur yang belum disematkan pada website di atas
-
 ## 🖥️ Website Video Snapshot
 
 https://user-images.githubusercontent.com/56708199/217967254-3a0341fe-7ea7-403c-a495-03d0515a476c.mp4
