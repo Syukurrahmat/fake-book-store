@@ -51,7 +51,7 @@ export const useSearchNCategorySWR = (query: string, page: number = 1) => (
 )
 
 export const useRelatedBookSWR = (query: string) => (
-    useSWR<Bookslist>({ baseUrl: `${BASE_API}/search`, query }, relatedBookFetcher)
+    useSWR<Bookslist>({ baseUrl: `${BASE_API}/search`, query :query.replace(/ /g, '-') }, relatedBookFetcher)
 )
 
 export const useMultipleBookDataSWR = (isbnList: string[]) => (
