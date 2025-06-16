@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "postbuild": "next-sitemap"
   },
   "dependencies": {
     "@chakra-ui/react": "^2.4.9",
@@ -23,6 +24,8 @@
     "fast-average-color": "^9.3.0",
     "framer-motion": "^8.5.3",
     "next": "13.1.5",
+    "next-seo": "^6.8.0",
+    "next-sitemap": "^4.2.3",
     "node-vibrant": "^3.2.1-alpha.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",

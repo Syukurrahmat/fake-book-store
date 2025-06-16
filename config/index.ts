@@ -23,25 +23,25 @@ export const CATEGORIES = [
         name: 'AI',
         image: aiImage,
         slug: 'AI',
-        query : 'artificial intelligence'
+        query : 'artificial-intelligence'
     },
     {
         name: 'Bisnis dan IT',
         image: itBussinesImage,
         slug: 'bisnis-dan-IT',
-        query : 'it bussiness'
+        query : 'it-bussiness'
     },
     {
         name: 'Komputasi Awan',
         image: cloudComputingImage,
         slug: 'komputasi-awan',
-        query : 'cloud computing'
+        query : 'cloud-computing'
     },
     {
         name: 'Data Science',
         image: dataScienceImage,
         slug: 'data-science',
-        query : 'data science'
+        query : 'data-science'
     },
 
 ]

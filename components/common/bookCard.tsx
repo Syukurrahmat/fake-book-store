@@ -23,7 +23,7 @@ export default function BookCard({ data }: IBookCard) {
         >
             <AspectRatio
                 as={Link}
-                href={'/book/' + isbn13}
+                href={`/book/${title.split(" ").join("-")}-${isbn13}`}
                 ratio={6 / 7}
                 boxShadow='xs'
                 borderRadius='md'

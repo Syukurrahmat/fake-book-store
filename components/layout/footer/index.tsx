@@ -19,7 +19,7 @@ export default function Footer() {
                             <IconBooks size='30' />
                             <Heading size='md'>BUKUTI</Heading>
                         </HStack>
-                        <Text > Cari, Temukan, dan Beli dengan budah dan cerdas </Text>
+                        <Text > Cari, Temukan, dan Beli Buku teknologi dengan mudah dan cerdas </Text>
                     </Box>
                     <Box>
                         <Heading size='md' mb='3'>Kontak Kami</Heading>
